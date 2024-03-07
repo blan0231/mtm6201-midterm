@@ -1,4 +1,8 @@
 
+h2 {
+    color:red;
+    font-weight: 500;
+}
 
 .explore {
     display: inline;
@@ -22,4 +26,86 @@
 
 .material-symbols-outlined {
     padding:10px;
+    color:red;
+    fill: red;
 }
+
+/* CSS */
+.button-1 {
+    background-color: grey;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    color:black;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    margin-left: 60px;
+    width: 40%;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-1:hover,
+  .button-1:focus {
+    background-color: #ff0000;
+  }
+
+  
+@media only screen and (min-width: 600px) {
+    body {
+    }
+
+    .button-1 {
+        background-color: grey;
+        border-radius: 8px;
+        border-style: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        color:black;
+        display: inline-block;
+        font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        height: 40px;
+        line-height: 20px;
+        list-style: none;
+        margin: 0;
+        margin-left: 60px;
+        width: 30%;
+        outline: none;
+        padding: 10px 16px;
+        position: relative;
+        align-self: center;
+        text-align: center;
+        text-decoration: none;
+        transition: color 100ms;
+        vertical-align: baseline;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+      
+      .button-1:hover,
+      .button-1:focus {
+        background-color: #ff0000;
+      }
+    
+  }
