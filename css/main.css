@@ -1,0 +1,41 @@
+
+body {
+    background-color: white;
+}
+
+.box {
+    width: 100%;
+    text-align:center;
+    padding:20px;
+}
+
+.burger {
+    background-color: green;
+    display: flex;
+    max-width: 100px;
+    padding:20px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 200px;
+}
+
+
+.pizza {
+    background-color: red;
+    display: flex;
+    max-width: 100px;
+    padding:20px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 20px;
+}
+
+.cake {
+    background-color: blue;
+    display: flex;
+    max-width: 100px;
+    padding:20px;
+    border-radius: 25px;
+    float: left;
+}
